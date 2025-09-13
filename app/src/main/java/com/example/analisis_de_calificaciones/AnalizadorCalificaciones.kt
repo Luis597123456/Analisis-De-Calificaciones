@@ -43,7 +43,7 @@ class AnalizadorCalificaciones
     {
         var cal = calificaciones.average()
         var calf = String.format("%.2f", cal)
-        println("El promedio de las calificaciones es: ${calf}")
+        println("El promedio total de las calificaciones es: ${calf}")
     }
     fun obPromedioMax()
     {

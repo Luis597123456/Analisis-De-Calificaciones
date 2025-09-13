@@ -8,7 +8,7 @@ fun main()
         var entrada: String?
         var calificaion: Float
         do {
-            println("Ingrese la calificacion: $i")
+            println("Ingrese la calificacion : $i")
             entrada = readLine()!!
         }while(entrada.isNullOrBlank())
         calificaion = entrada.toFloat()
